@@ -1,0 +1,1672 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+* a {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #000;
+}
+
+.article {
+  background-color: #000;
+}
+
+/* Mobile */
+@media only screen and (max-width: 759px) {
+  .contenedor-main {
+    display: none;
+  }
+  .contenedor-botones-order-desktop {
+    display: none;
+  }
+  .article-desktop {
+    display: none;
+  }
+  .contenedor-titulo-ordernow-desktop {
+    display: none;
+  }
+  .contenedor-parrafo-img-desktop {
+    display: none;
+  }
+  .contenedor-articulos {
+    display: none;
+  }
+  .contenedor-parrafo-desktop {
+    display: none;
+  }
+  .contenedor-articulos-ipad {
+    display: none;
+  }
+  .contenedor-parrafo-ipad {
+    display: none;
+  }
+  .contenedor-botones-ordernow-blancos-desktop {
+    display: none;
+  }
+  .contenedor-botones-finales-desktop {
+    display: none;
+  }
+  .contenedor-articulos-desktop {
+    display: none;
+  }
+  .contenedor-botones-ordernow-blancos-ipad {
+    display: none;
+  }
+  .contenedor-botones-finales-ipad {
+    display: none;
+  }
+  p {
+    margin-left: 0.4rem;
+  }
+  .contenedor-principal {
+    padding-top: 870px !important;
+    background-image: url("/img/fondo.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .contenedor-principal .contenedor-titulo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -830px;
+  }
+  .contenedor-principal .contenedor-titulo .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-principal .contenedor-titulo .titulo img {
+    width: 95%;
+    margin-left: 8px;
+  }
+  .contenedor-principal .contenedor-portada-disco-mobile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -50px;
+  }
+  .contenedor-principal .contenedor-portada-disco-mobile .portada-disco-mobile {
+    margin-top: 79px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 92.5%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .contenedor-principal .contenedor-portada-disco-mobile .portada-disco-mobile img {
+    margin-bottom: -2.5px;
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-principal .contenedor-cuadrados-mobile {
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 3.3%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: none;
+  }
+  .contenedor-principal .contenedor-cuadrados-mobile .alineador {
+    width: 335px;
+    height: 100%;
+  }
+  .contenedor-principal .contenedor-cuadrados-mobile ul {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: none;
+  }
+  .contenedor-principal .contenedor-cuadrados-mobile ul .cuadrado-mobile {
+    background-color: #BA9353;
+    margin-top: 2px;
+    display: block;
+    font-size: 1.25em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .contenedor-principal .contenedor-cuadrados-mobile ul .cuadrado-mobile i {
+    color: #fff;
+  }
+  .contenedor-principal .contenedor-titulo-mobile {
+    width: 92%;
+    margin-left: 3.6%;
+    margin-top: 60px;
+  }
+  .contenedor-principal .contenedor-titulo-mobile h1 {
+    color: #fff;
+    margin-left: 2px;
+    font-weight: 750;
+    font-size: 1.8rem;
+  }
+  .contenedor-principal .barra-marron-mobile {
+    width: 80px !important;
+    height: 3px !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+  }
+  .contenedor-principal .contenedor-lista-mobile {
+    margin-top: 3.5rem;
+    margin-left: 3.6%;
+    width: 92.5%;
+    height: 60vh;
+  }
+  .contenedor-principal .contenedor-lista-mobile .lista-canciones-mobile {
+    list-style: none;
+    display: block;
+    list-style-type: decimal;
+    list-style: inside decimal-leading-zero;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .contenedor-principal .contenedor-lista-mobile .lista-canciones-mobile li {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin-left: -40px;
+  }
+  .contenedor-principal .contenedor-lista-mobile .lista-canciones-mobile .cancion-mobile {
+    font-weight: 420;
+    font-size: 0.9rem;
+  }
+  .contenedor-principal .contenedor-botones-order-mobile {
+    width: 99%;
+    height: 30vh;
+    margin-top: 8rem;
+    border: #fff;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .contenedor-principal .contenedor-botones-order-mobile .alineador-order {
+    width: 280px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .contenedor-principal .contenedor-botones-order-mobile .alineador-order .boton-order-now-marron-mobile {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    padding: 0.75rem 2.125rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    min-width: 150px;
+    padding: 1.5rem 1rem;
+    display: block;
+    color: white;
+    height: 1rem;
+  }
+  .contenedor-videos-mobile {
+    width: 100%;
+    background-color: #000;
+    height: 50vh;
+  }
+  .contenedor-videos-mobile .contenedor-video-principal-mobile {
+    width: 100%;
+    height: 40vh;
+  }
+  .contenedor-videos-mobile .contenedor-video-principal-mobile .video-principal-mobile {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .contenedor-videos-mobile .contenedor-videos-chicos-mobile {
+    height: 10vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contenedor-videos-mobile .contenedor-videos-chicos-mobile .video-chico-mobile {
+    width: 20%;
+    height: 100%;
+  }
+  .contenedor-videos-mobile .contenedor-videos-chicos-mobile .primero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .contenedor-videos-mobile .contenedor-videos-chicos-mobile .segundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .contenedor-videos-mobile .contenedor-videos-chicos-mobile .tercero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .contenedor-videos-mobile .contenedor-videos-chicos-mobile .cuarto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .contenedor-titulo-ordernow-mobile {
+    width: 100%;
+    background-color: #000;
+    height: 30vh;
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .contenedor-titulo-ordernow-mobile h3 {
+    color: #fff;
+    font-weight: 705;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  .contenedor-titulo-ordernow-mobile .barra-marron-mobile {
+    width: 23%;
+    height: 0.5vh;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+  }
+  .contenedor-parrafo-img-mobile {
+    width: 94%;
+    background-color: #000;
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 0.7rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-parrafo-mobile {
+    width: 100%;
+    background-color: #000;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-parrafo-mobile p {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-weight: 520;
+    letter-spacing: 1.2px;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-parrafo-mobile .parrafo-primero {
+    font-size: 0.9rem;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-img-mobile {
+    width: 90%;
+    background-color: #000;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-img-mobile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-segundo-titulo-mobile {
+    width: 90%;
+    background-color: #000;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-segundo-titulo-mobile h4 {
+    color: #ededed;
+    margin-left: 2px;
+    font-weight: 750;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-segundo-titulo-mobile .barra-marron-mobile {
+    width: 23%;
+    height: 0.5vh;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 1.3rem;
+    margin-left: 2px;
+  }
+  .contenedor-parrafo-img-mobile .limited {
+    text-align: start !important;
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-parrafo-img-mobile .limited .boton-order-now-blanco-mobile {
+    background: #fff;
+    background-size: 100%;
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: 0.4s background-color ease;
+    margin-top: 2rem;
+  }
+  .contenedor-parrafo-img-mobile .limited-tercero {
+    text-align: start !important;
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .contenedor-parrafo-img-mobile .limited-tercero .boton-order-now-blanco-mobile {
+    background: #ededed;
+    background-size: 100%;
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: 0.4s background-color ease;
+    margin-top: 2rem;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-botones-finales-mobile {
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-botones-finales-mobile .boton-shop-mobile {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    min-width: 190.5px;
+    padding: 1rem 1.5rem;
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .contenedor-parrafo-img-mobile .contenedor-botones-finales-mobile .boton-entermegadeth-mobile {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    padding: 0.75rem 2.125rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    min-width: 190.5px;
+    padding: 1rem 1.5rem;
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  /* ipad */
+  .contenedor-cuadrados-mobile {
+    display: none !important;
+  }
+  .contenedor-lista-mobile {
+    display: none !important;
+  }
+  .contenedor-titulo-mobile {
+    display: none;
+  }
+  .barra-marron-mobile {
+    display: none !important;
+  }
+  .contenedor-botones-order-mobile {
+    display: none !important;
+  }
+  .contenedor-videos-mobile {
+    display: none !important;
+  }
+  .contenedor-video-principal-mobile {
+    display: none !important;
+  }
+  .contenedor-videos-chicos-mobile {
+    display: none !important;
+  }
+  .article-mobile {
+    display: none !important;
+  }
+  .contenedor-articulos-desktop {
+    display: none;
+  }
+  .contenedor-portada-disco-mobile {
+    display: none !important;
+  }
+  .contenedor-botones-ordernow-blancos-desktop {
+    display: none !important;
+  }
+  .contenedor-botones-finales-desktop {
+    display: none !important;
+  }
+  #general {
+    width: 100%;
+    height: 100vh;
+  }
+  #general .contenedor-principal {
+    background-image: url("/img/fondo.jpg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  #general .contenedor-principal .contenedor-titulo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+  }
+  #general .contenedor-principal .contenedor-titulo .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-titulo .titulo img {
+    width: 96.5%;
+  }
+  #general .contenedor-principal .contenedor-main {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto {
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop {
+    width: 40vw;
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: none;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop .alineador {
+    width: 350px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile {
+    background-color: #BA9353;
+    margin-top: 2px;
+    display: block;
+    font-size: 1.25em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px !important;
+    width: 40px !important;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile i {
+    color: #fff;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .primero {
+    margin-left: -5px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .portada-disco-desktop {
+    width: 100%;
+    flex: 0 0 50%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .portada-disco-desktop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop h1 {
+    color: #fff;
+    margin-left: 27px !important;
+    font-weight: 750;
+    font-size: 1.8rem;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .barra-marron-desktop {
+    width: 80px !important;
+    height: 3px !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 1.3rem;
+    margin-left: 28px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    text-align: start;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop .lista-canciones-desktop {
+    list-style: none;
+    width: 75%;
+    display: block;
+    list-style-type: decimal;
+    list-style: inside decimal-leading-zero;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-left: 1rem !important;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop .lista-canciones-desktop li {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin-left: -40px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop .lista-canciones-desktop .cancion-desktop {
+    font-weight: 420;
+    font-size: 0.9rem;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop .alineador-order {
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop .alineador-order .boton-order-now-marron-desktop {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    padding: 0.75rem 2.125rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+    min-width: 190.5px;
+    padding: 1.5rem 2.125rem;
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+    height: 1rem;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop .alineador-order .boton-order-now-marron-desktop:hover {
+    background-color: #5D4929;
+  }
+  #general .contenedor-principal .article-desktop {
+    margin-top: 3rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-video-principal-desktop {
+    text-align: center;
+    width: 99%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-video-principal-desktop .video-principal-desktop {
+    width: 100%;
+    height: 40vh;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop {
+    width: 90%;
+    height: 10vh;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .video-chico-desktop {
+    width: 20%;
+    padding: 0;
+    height: 100%;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .primero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .segundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .tercero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .cuarto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .contenedor-titulo-ordernow-desktop {
+    width: 100%;
+    background-color: #000;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-titulo-ordernow-desktop h3 {
+    color: #fff;
+    font-weight: 705;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    margin-left: 0.2rem;
+  }
+  #general .contenedor-principal .contenedor-titulo-ordernow-desktop .barra-marron-desktop {
+    width: 80px;
+    height: 0.3vh;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-left: 0.5rem;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop {
+    width: 95%;
+    background-color: #000;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop .contenedor-parrafo-desktop {
+    width: 100%;
+    background-color: #000;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop .contenedor-parrafo-desktop p {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-weight: 520;
+    letter-spacing: 1.2px;
+    margin-left: 1rem;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop .contenedor-parrafo-desktop .parrafo-primero {
+    font-size: 0.9rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad {
+    width: 90%;
+    margin-left: 3%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: -35px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo {
+    width: 33%;
+    height: 45vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-imagen {
+    width: 100%;
+    height: 30vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-imagen img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-titulo-articulo {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-titulo-articulo h4 {
+    color: #ededed;
+    font-weight: 750;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-align: start !important;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-titulo-articulo .barra-marron-desktop {
+    width: 70px !important;
+    height: 3px !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-bottom: 1.3rem;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-parrafo-articulo {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding-right: 2rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-parrafo-articulo p {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-weight: 520;
+    letter-spacing: 1.2px;
+    margin-left: 0.5rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .primer-articulo .contenedor-parrafo-articulo div {
+    display: none;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo {
+    width: 33%;
+    height: 45vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-imagen {
+    width: 100%;
+    height: 30vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-imagen img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-titulo-articulo {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+    padding-right: 30px !important;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-titulo-articulo h4 {
+    color: #ededed;
+    margin-left: 2px;
+    font-weight: 750;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-left: 30px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-titulo-articulo .barra-marron-desktop {
+    width: 70px !important;
+    height: 3px !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 1.3rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-parrafo-articulo {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding-left: 2rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-parrafo-articulo p {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-weight: 520;
+    letter-spacing: 1.2px;
+    margin-left: 0.5rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .segundo-articulo .contenedor-parrafo-articulo div {
+    display: none;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo {
+    width: 33%;
+    height: 45vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-imagen {
+    width: 100%;
+    height: 30vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-imagen img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-titulo-articulo {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 30px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-titulo-articulo h4 {
+    color: #ededed;
+    margin-left: 2px;
+    font-weight: 750;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-left: 0.8rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-titulo-articulo .barra-marron-desktop {
+    width: 70px !important;
+    height: 3px !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 1.3rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-parrafo-articulo {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding-left: 30px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-parrafo-articulo p {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-weight: 520;
+    letter-spacing: 1.2px;
+  }
+  #general .contenedor-principal .contenedor-articulos-ipad .tercer-articulo .contenedor-parrafo-articulo div {
+    display: none;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-ipad {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 200px;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-ipad .boton-order-now-blanco-mobile {
+    background: #fff;
+    background-size: 100%;
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: 0.4s background-color ease;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-ipad {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-ipad .boton-shop-desktop {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    margin: 0 5px;
+    min-width: 190.5px;
+    padding: 1rem 1.5rem;
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-ipad .boton-entermegadeth-desktop {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    padding: 0.75rem 2.125rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    margin: 0 5px;
+    min-width: 190.5px;
+    padding: 1rem 1.5rem;
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+  }
+}
+/*  */
+@media only screen and (min-width: 1025px) {
+  .contenedor-cuadrados-mobile {
+    display: none !important;
+  }
+  .contenedor-titulo-mobile {
+    display: none;
+  }
+  .barra-marron-mobile {
+    display: none !important;
+  }
+  .contenedor-articulos-ipad {
+    display: none;
+  }
+  .contenedor-lista-mobile {
+    display: none !important;
+  }
+  .contenedor-botones-order-mobile {
+    display: none !important;
+  }
+  .contenedor-videos-mobile {
+    display: none !important;
+  }
+  .contenedor-video-principal-mobile {
+    display: none !important;
+  }
+  .contenedor-videos-chicos-mobile {
+    display: none !important;
+  }
+  .article-mobile {
+    display: none !important;
+  }
+  .contenedor-parrafo-ipad {
+    display: none;
+  }
+  .contenedor-portada-disco-mobile {
+    display: none !important;
+  }
+  .contenedor-botones-ordernow-blancos-ipad {
+    display: none;
+  }
+  .contenedor-botones-finales-ipad {
+    display: none;
+  }
+  #general {
+    width: 100%;
+    height: 100vh;
+  }
+  #general .contenedor-principal {
+    background-image: url("/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: 100%;
+    padding-top: 120px;
+  }
+  #general .contenedor-principal .contenedor-titulo {
+    margin-top: -40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-titulo .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-titulo .titulo img {
+    width: 95%;
+  }
+  #general .contenedor-principal .contenedor-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto {
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    display: flex;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    height: auto;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop {
+    width: 480.5px !important;
+    height: 50px !important;
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop .alineador {
+    width: 75%;
+    height: 100%;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile {
+    background-color: #BA9353;
+    margin-top: 2px;
+    display: block;
+    font-size: 1.25em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px !important;
+    width: 40px !important;
+    transition: all 0.6s ease;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile i {
+    color: #fff;
+    transition: all 0.6s ease;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .spoty:hover {
+    color: #1DB954;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .manzana:hover {
+    color: #A2AAAD;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .amazona:hover {
+    color: #FF9900;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .elshutub:hover {
+    color: #c4302b;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .tuiter:hover {
+    color: #1D9BF0;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .lamusica:hover {
+    color: #D60017;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile .elmas:hover {
+    color: #BA9353;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .cuadrado-mobile:hover {
+    background-color: #181818;
+    outline: solid 0.5px #353535;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .contenedor-cuadrados-desktop ul .primero {
+    margin-left: -8px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .portada-disco-desktop {
+    width: 480px;
+    flex: 0 0 50%;
+    margin-top: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-portada-disco-desktop .portada-disco-desktop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop h1 {
+    color: #fff;
+    margin-left: 39px !important;
+    font-weight: 750;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .barra-marron-desktop {
+    width: 80px !important;
+    height: 3px !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 1.3rem;
+    margin-left: 40px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop {
+    width: 100%;
+    height: auto;
+    text-align: start;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop .lista-canciones-desktop {
+    list-style: none;
+    width: 55% !important;
+    display: block;
+    list-style-type: decimal;
+    list-style: inside decimal-leading-zero;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-left: 1.8rem;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop .lista-canciones-desktop li {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin-left: -40px;
+  }
+  #general .contenedor-principal .contenedor-main .contenedor-compacto .contenedor-titulo-desktop .contenedor-lista-desktop .lista-canciones-desktop .cancion-desktop {
+    font-weight: 420;
+    font-size: 0.9rem;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop .alineador-order {
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop .alineador-order .boton-order-now-marron-desktop {
+    background: #ba9353;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    padding: 0.75rem 2.125rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+    min-width: 190.5px;
+    padding: 1.5rem 2.125rem;
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+    height: 1rem;
+  }
+  #general .contenedor-principal .contenedor-botones-order-desktop .alineador-order .boton-order-now-marron-desktop:hover {
+    background-color: #5D4929;
+  }
+  #general .contenedor-principal .article-desktop {
+    margin-top: 3rem;
+    height: auto;
+    width: 100%;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-video-principal-desktop {
+    text-align: center;
+    height: auto;
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-video-principal-desktop .video-principal-desktop {
+    width: 90%;
+    height: 100vh;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop {
+    width: 100%;
+    height: 30vh;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .video-chico-desktop {
+    width: 20%;
+    padding: 0;
+    height: 100%;
+    margin-right: 20px;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .primero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .segundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .tercero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .article-desktop .contenedor-videos-chicos-desktop .cuarto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #general .contenedor-principal .contenedor-titulo-ordernow-desktop {
+    width: 100%;
+    background-color: #000;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-titulo-ordernow-desktop h3 {
+    color: #fff;
+    font-weight: 705;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  #general .contenedor-principal .contenedor-titulo-ordernow-desktop .barra-marron-desktop {
+    width: 80px;
+    height: 0.3vh;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop {
+    width: 100%;
+    background-color: #000;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop .contenedor-parrafo-desktop {
+    width: 80%;
+    background-color: #000;
+    margin-top: 10px;
+    height: 50%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop .contenedor-parrafo-desktop p {
+    color: #ededed;
+    font-size: 0.8rem;
+    font-weight: 520;
+    letter-spacing: 1.2px;
+  }
+  #general .contenedor-principal .contenedor-parrafo-desktop .contenedor-parrafo-desktop .parrafo-primero {
+    font-size: 0.9rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo {
+    width: 33%;
+    height: auto;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-imagen {
+    width: 100%;
+    height: 50vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-imagen img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s ease;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-imagen img:hover {
+    transform: scale(110%);
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-titulo-articulo {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-titulo-articulo h4 {
+    color: #ededed;
+    font-weight: 750;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-titulo-articulo .barra-marron-desktop {
+    width: 70px !important;
+    height: 30vh !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 20px;
+    padding: 1.5px;
+    margin-bottom: 1.3rem;
+    margin-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-parrafo-articulo {
+    width: 100%;
+    height: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-parrafo-articulo p {
+    color: #ededed;
+    font-size: 0.9rem;
+    font-weight: 520;
+    letter-spacing: 1.4px;
+    padding-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .primer-articulo .contenedor-parrafo-articulo div {
+    display: none;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo {
+    width: 33%;
+    height: 100%;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-imagen {
+    width: 100%;
+    height: 50vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-imagen img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin-left: 5px !important;
+    transition: all 0.6s ease;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-imagen img:hover {
+    transform: scale(110%);
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-titulo-articulo {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 83px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-titulo-articulo h4 {
+    color: #ededed;
+    font-weight: 750;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-titulo-articulo .barra-marron-desktop {
+    width: 70px !important;
+    height: 30vh !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 20px;
+    padding: 1.5px;
+    margin-right: 55px;
+    margin-bottom: 1.3rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-parrafo-articulo {
+    width: 100%;
+    height: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-parrafo-articulo p {
+    color: #ededed;
+    font-size: 0.9rem;
+    font-weight: 520;
+    letter-spacing: 1.4px;
+    padding-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .segundo-articulo .contenedor-parrafo-articulo div {
+    display: none;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo {
+    width: 33%;
+    height: 100%;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-imagen {
+    width: 100%;
+    height: 50vh;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-imagen img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s ease;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-imagen img:hover {
+    transform: scale(110%);
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-titulo-articulo {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 108px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-titulo-articulo h4 {
+    color: #ededed;
+    font-weight: 750;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-titulo-articulo .barra-marron-desktop {
+    width: 70px !important;
+    height: 30vh !important;
+    background-color: #BA9353;
+    border: solid 1px #BA9353;
+    margin-top: 20px;
+    padding: 1.5px;
+    margin-bottom: 1.3rem;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-parrafo-articulo {
+    width: 100%;
+    height: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-parrafo-articulo p {
+    color: #ededed;
+    font-size: 0.9rem;
+    font-weight: 520;
+    letter-spacing: 1.4px;
+  }
+  #general .contenedor-principal .contenedor-articulos-desktop .tercer-articulo .contenedor-parrafo-articulo div {
+    display: none;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop {
+    width: 80%;
+    height: 20vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 15px;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop .boton-order-now-blanco-mobile {
+    background: #fff;
+    background-size: 100%;
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: 0.4s background-color ease;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop .boton-order-now-blanco-mobile:hover {
+    background-color: #BA9355;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop .boton-order-now-blanco-mobile:hover {
+    background-color: #BA9355;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop .ordennow-primero {
+    margin-right: 70px;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop .ordennow-segundo {
+    margin-right: 90px;
+  }
+  #general .contenedor-principal .contenedor-botones-ordernow-blancos-desktop .ordennow-tercero {
+    margin-right: 50px;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-desktop {
+    width: 100%;
+    height: 28vh;
+    border-top: 1px solid #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-desktop .boton-shop-desktop {
+    background: #181818;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+    margin: 0 5px;
+    min-width: 190.5px;
+    padding: 1rem 1.5rem;
+    display: block;
+    color: white;
+    margin-left: 1.2rem;
+    margin-top: 20px;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-desktop .boton-entermegadeth-desktop {
+    background: #181818;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    outline: none !important;
+    padding: 0.75rem 2.125rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+    margin: 0 5px;
+    min-width: 190.5px;
+    padding: 1rem 1.5rem;
+    display: block;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 1.2rem;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-desktop .boton-shop-desktop:hover {
+    background-color: #BA9353;
+  }
+  #general .contenedor-principal .contenedor-botones-finales-desktop .boton-entermegadeth-desktop:hover {
+    background-color: #BA9353;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
